@@ -13,7 +13,7 @@
     
     .NOTES
     Version: 1.0 TRMM
-    Autor: REFLECTS Tactical RMM
+    Autor: Rainer IT Services
     Shell Type: PowerShell
     Timeout: ~5-10 Min
 #>
