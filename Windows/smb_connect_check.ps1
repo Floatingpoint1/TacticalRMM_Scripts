@@ -14,7 +14,7 @@ Exit-Codes:
 2 = Script-Ausfuehrungsfehler oder ungueltige Parameter
 
 .PARAMETER UNCPath
-UNC-Pfad zum Netzlaufwerk (z.B. \\10.0.0.45\01DE_AP_Dokumente)
+UNC-Pfad zum Netzlaufwerk (z.B. \\DNS_OR_IP\Folder)
 
 .PARAMETER Timeout
 Timeout in Sekunden fuer Ping-Test (default: 5)
@@ -30,7 +30,7 @@ Kompatibel mit: Windows Server 2012+, Windows 10+, Windows 11
 
 .EXAMPLE
 # Standard-Ausfuehrung
-.\script.ps1 -UNCPath "\\10.0.0.45\01DE_AP_Dokumente"
+.\script.ps1 -UNCPath "\\DNS_OR_IP\Folder"
 
 .EXAMPLE
 # Mit angepasstem Timeout
@@ -197,10 +197,10 @@ try {
         Write-Output "  -UNCPath \`"\\server\share\`""
         Write-Output ""
         Write-Output "Beispiel:"
-        Write-Output "  -UNCPath \`"\\10.0.0.45\01DE_AP_Dokumente\`""
+        Write-Output "  -UNCPath \`"\\DNS_OR_IP\Folder\`""
         Write-Output ""
         Write-Output "In Tactical RMM unter 'Script Arguments' eintragen:"
-        Write-Output "  -UNCPath \`"\\10.0.0.45\01DE_AP_Dokumente\`""
+        Write-Output "  -UNCPath \`"\\DNS_OR_IP\Folder\`""
         exit 2
     }
     
