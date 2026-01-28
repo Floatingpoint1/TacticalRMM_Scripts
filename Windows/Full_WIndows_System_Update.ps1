@@ -29,7 +29,7 @@
     
     .NOTES
     Version: 2.2 TRMM
-    Autor: REFLECTS Tactical RMM
+    Autor: Rainer IT Services
     Shell Type: PowerShell
     Platform: Windows
     Erfordert: Administrator-Rechte
