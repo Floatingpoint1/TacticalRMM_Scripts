@@ -24,7 +24,7 @@ Status-Information zur Netzlaufwerk-Erreichbarkeit
 
 .NOTES
 Version: 2.2
-Author: REFLECTS IT
+Author: Rainer IT Services
 Date: 04/12/2024
 Kompatibel mit: Windows Server 2012+, Windows 10+, Windows 11
 
